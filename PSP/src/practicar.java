@@ -32,16 +32,14 @@ public class practicar {
 		 * PrintWriter pw = new PrintWriter (fos);
 		 */
 		
-		File f = new File(args[0]);
+		/*File f = new File(args[0]);
 		f.createNewFile();
-		
+		*/
 		try{
 			p=r.exec("java programaSaludo Hallo!");
 			is = p.getInputStream();
 			br= new BufferedReader(new InputStreamReader(is));
-			bw= new BufferedWriter(new OutputStreamWriter(new FileOutputStream(f)));
-
-			
+			bw= new BufferedWriter(new OutputStreamWriter(new FileOutputStream(args[0])));
 
 			while((linea=br.readLine())!=null){	
 				bw.write(linea);
@@ -55,7 +53,7 @@ public class practicar {
 		}catch(IOException ioe){
 			ioe.printStackTrace();
 		}finally{
-				bw.flush();
+				//bw.flush();
 				bw.close();
 				br.close();
 		}
