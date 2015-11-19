@@ -1,9 +1,9 @@
 package ProcesosHilos;
 
-public class Hilos2 implements Runnable{
+public class Ejercicio1a implements Runnable{
 	private int numero;
 	
-	public Hilos2(int n){
+	public Ejercicio1a(int n){
 		this.numero=n;
 	}
 

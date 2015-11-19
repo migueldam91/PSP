@@ -1,6 +1,6 @@
 package ProcesosHilos;
 
-public class Hilos4 extends Thread {
+public class Ejercicio3 extends Thread {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub

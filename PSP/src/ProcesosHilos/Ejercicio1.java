@@ -1,9 +1,9 @@
 package ProcesosHilos;
 
-public class Hilos1 extends Thread {
+public class Ejercicio1 extends Thread {
 	private int numero;
 	
-	public Hilos1(int n){
+	public Ejercicio1(int n){
 		this.numero=n;
 	}
 	
