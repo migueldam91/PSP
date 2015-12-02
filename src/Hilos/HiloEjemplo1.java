@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 public class HiloEjemplo1 extends Thread{
 	private int c;

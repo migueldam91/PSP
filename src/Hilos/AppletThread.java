@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 import java.applet.Applet;
 import java.awt.Graphics;

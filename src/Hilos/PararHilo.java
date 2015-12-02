@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 public class PararHilo extends Thread{
 	private boolean parar=false;

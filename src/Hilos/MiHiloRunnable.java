@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 public class MiHiloRunnable implements Runnable{
 	private String nombre;

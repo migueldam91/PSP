@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 public class HiloEjemplo2 extends Thread{
 	@Override

@@ -29,8 +29,7 @@ public class AppletPrioridad extends Applet {
 		bd1 = new Button("--");
 		
 		add(bd1);
-		add(b1);
-		add(bi1);
+		add(b1);		add(bi1);
 		b1.addActionListener(b1l);
 		bi1.addActionListener(b1l);
 		bd1.addActionListener(b1l);

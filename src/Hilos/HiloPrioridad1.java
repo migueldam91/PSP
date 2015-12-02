@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 public class HiloPrioridad1 extends Thread {
 	private int c = 0;

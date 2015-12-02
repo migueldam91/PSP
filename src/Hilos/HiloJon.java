@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 public class HiloJon extends Thread {
 	private int n;

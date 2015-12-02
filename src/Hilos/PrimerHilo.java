@@ -1,4 +1,4 @@
-package Procesos;
+package Hilos;
 
 public class PrimerHilo extends Thread{
 	private int x;
